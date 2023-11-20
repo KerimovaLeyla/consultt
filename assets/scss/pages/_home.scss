@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+   
+    width: 100%;
+    
+
+    nav {
+        width: auto;
+    
+
+        .collapseDiv {
+            justify-content: flex-end;
+
+            .navItem {
+                font-size: 15px;
+                font-weight: 500px;
+               
+            }
+
+
+        }
+
+        .navLogo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+main {
+    position: relative;
+}
+
+#consult {
+   
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://preview.colorlib.com/theme/consultingbiz/assets/img/hero/h1_hero.jpg');
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+    .container img {
+        width: 100%;
+        height: 600px;
+        float: right;
+    }
+
+    .itemOne {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px;
+        position: relative;
+        padding: 10px;
+        
+        #btn {
+
+            width: 150px;
+         border: none;
+            background-color: rgb(253, 10, 91);
+            height: 45px;
+            position: absolute;
+            bottom: 170px;
+            left: -50px;
+            color: white;
+            font-weight: 600;
+
+         
+        }
+        .line{
+            width: 80px;
+            height: 3px;
+            background-color: rgb(207, 34, 34);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+       
+        }
+        .linbut{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btnone{
+            border: none;
+            color: orangered;
+            width: 200px;
+            background-color: transparent;    
+        }
+        h1{
+            width: 500px;
+            font-size: 60px;
+
+        }
+p{
+    width: 500px;
+    font-size: 20px;
+}
+       
+    }
+
+
+}
+
+
+#ourBestServices{
+    width: 100%;
+    height: 650px;
+    background-color: #dcd9d9;
+   
+    .line{
+        width: 80px;
+        height: 3px;
+        background-color: rgb(207, 34, 34);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   
+    }
+    .linbut{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btnone{
+        border: none;
+        color: orangered;
+        width: 200px;
+        background-color: transparent;    
+    }
+
+    .container{
+        transform: translateY(50px);
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+.ourBestServicesContent{
+    transform: translateY(50px);
+.item{
+    height: 300px;
+    width: 250px;
+    border: 1px solid rgb(230, 225, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F7F7F7;
+    h1{
+        font-weight: bold;
+    }
+}
+    }
+}
+}
+
